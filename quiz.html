@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<!--
+
+This is a survey form that helps users, that aren't sure about what job would suit them, find out what job they should have.
+
+-->
+<html>
+  <head>
+    <div class="container">
+      <header class="header">
+        <h1 id="title">What Job Would Suit You?</h1>
+  </head>
+      <body>
+        <p id="description">Take this test to find out what job would suit you</p>
+        <form id="survey-form">
+          <div class="form-group">
+            <label id="name-label" for="name">Name</label>
+            <input
+                 type="text"
+                 name="name"
+                 id="name"
+                 class="form-control"
+                 placeholder="Enter your name"
+                 required />
+          </div>
+          <div class="form-group">
+            <label id="email-label" for="email">Email</label>
+            <input
+                 type="email"
+                 name="email"
+                 id="email"
+                 class="form-control"
+                 placeholder="Enter your email"
+                 required />
+          </div>
+          <div class="form-group">
+            <label id="number-label" for="number">Age<span class="clue"> (optional)</span></label>
+            <input
+                 type="number"
+                 name="age"
+                 id="number"
+                 min="10"
+                 max="99"
+                 class="form-control"
+                 placeholder="Age" />
+          </div>
+          <div class="form-group">
+            <p>What would you rather do?</p>
+            <select id="dropdown" name="role" class="form-control" required>
+              <option disabled selected value>Choose one</option>
+              <option value="code">Code a website</option>
+              <option value="draw">Draw pictures</option>
+              <option value="write">Write a book</option>
+              <option value="run">Run a marathon</option>
+              <option value="other">Other (please specify) <textarea id="comments" class="input-textarea" name="comment" placeholder="If you selected other, what would you do instead?"></textarea></option>
+            </div>
+            <div class="form-group">
+              <p>Quick! Click everything that you like.</p>
+              <label>
+                <input
+                     name="prefer"
+                     value="frontend"
+                     type="checkbox"
+                     class="input-checkbox"/>Front-end Projects</label>
+              <label>
+                <input
+                       name="prefer"
+                       value="backend"
+                       type="checkbox"
+                       class="input-checkbox"/>Back-end Projects</label>
+              <label>
+                <input
+                       name="prefer"
+                       value="fullstack"
+                       type="checkbox"
+                       class="input-checkbox"/>Fullstack Projects</label>
+            </div>
+            <div class="form-group">
+              <p>Choose One</p>
+                <label>
+                  <input
+                         name="prefer"
+                         value="painting"
+                         type="radio"
+                         class="input-radio"/>Painting</label>
+              <label>
+                <input
+                       name="prefer"
+                       value="writing"
+                       type="radio"
+                       class="input-radio"/>Writing</label>
+              <label>
+                <input
+                       name="prefer"
+                       value="drawing"
+                       type="radio"
+                       class="input-radio"/>Drawing</label>
+            </div>
+            <div class="form-group">
+              <button type="submit" id="submit" class="submit-button">Submit</button>
+            </div>
+        </body>
+</html>
