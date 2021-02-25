@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<!--
+
+This is a product landing page that sells authentic and vintage film cameras
+
+-->
+<div id="page-wrapper">
+  <header id="header">
+      <img id="header-img" src="https://images.vexels.com/media/users/3/201240/isolated/preview/ac673d845250257fb0b9c8ab9728ef02-vintage-analogue-camera-black-icon-by-vexels.png" alt="company logo"/>
+
+    <nav id="nav-bar">
+      <ul>
+        <li><a class="nav-link" href="#features">Features</a></li>
+        <li><a class="nav-link" href="#how-it-works">How It Works</a></li>
+        <li><a class="nav-link" href="#pricing">Pricing</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="container">
+    <section id="features">
+      <div class="grid">
+        <div class="desc">
+          <h2>Authentic Vintage Cameras</h2>
+          <p>All cameras are authentic and handpicked by experts from around the world</p>
+        </div>
+      </div>
+      <div class="grid">
+        <div class="desc">
+          <h2>Free Shipping</h2>
+          <p>Automatically get free shipping when you spend £200 or more</p>
+        </div>
+      </div>
+      <div class="desc">
+        <h2>Quality Assurance</h2>
+        <p>We make sure that your items are in good condition so that you can make the most of your purchase</p>
+      </div>
+    </div>
+  </section>
+  <section id="how-it-works">
+    <iframe id="video" width="560" height="315" src="https://www.youtube-nocookie.com/embed/kYFSuGNzuFg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </section>
+  <div id="pricing">
+    <div class="product" id="canon">
+      <div class="level">Canon</div>
+      <h5>FROM</h5><h2>£100</h2>
+      <ol>
+        <li>Shoots 35mm film</li>
+        <li>Good for beginners</li>
+        <li>Lightweight</li>
+      </ol>
+      <button class="btn">Select</button>
+    </div>
+    <div class="product" id="polaroid">
+      <div class="level">Polaroid</div>
+      <h5>FROM</h5><h2>£50</h2>
+      <ol>
+        <li>Instantly prints your photos</li>
+        <li>Portable</li>
+        <li>No darkroom required</li>
+      </ol>
+      <button class="btn">Select</button>
+    </div>
+    <div class="product" id="rolleiflex">
+      <div class="level">Rolleiflex</div>
+      <h5>FROM</h5><h2>£175</h2>
+      <ol>
+        <li>Twin Lens</li>
+        <li>Great for professionals</li>
+        <li>50% off normal retail price</li>
+      </ol>
+      <button class="btn">Select</button>
+    </div>
+  </section>
+  <div class="container"></div>
+  <h2>Sign up to get updates and exclusive offers straight to your inbox</h2>
+  <form id="form"
+        action="https://www.freecodecamp.com/email-submit">
+    <input name="email"
+           id="email"
+           type="email"
+           placeholder="Enter your email address" required/>
+    <input id="submit" type="submit" value="Sign Up" class="btn"/>
+    </form>
+</html>
