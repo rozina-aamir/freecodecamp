@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<!--
+
+This is a technical documentation page that tells the user, generally a beginner, how HTML and CSS works
+
+-->
+
+<nav id="navbar">
+  <ul>
+    <li><a class="nav-link" href="#Introduction">Introduction</a></li>
+    <li><a class="nav-link" href="#what_you_should_know">What You Should Know</a></li>
+    <li><a class="nav-link" href="#what_is_html">What is HTML?</a></li>
+    <li><a class="nav-link" href="#what_is_css">What is CSS?</a></li>
+    <li><a class="nav-link" href="#creating_your_first_webpage"></a></li>
+  </ul>
+
+  <header>HTML and CSS Documentation</header>
+  <main id="main-doc">
+    <header>Introduction</header>
+    <section class="main-section" id="introduction">
+    <p>HTML and CSS are known as "frontend" languages.</p>
+    <p>This means that you can directly see everything, and although you can't see the code itself, these two languages power the look and feel of a webpage.</p>
+  </section>
+
+  <section class="main-section" id="what_you_should_know">
+    <header>What You Should Know</header>
+    <p>HTML (short for "HyperText Markup Language") is the most basic building block of the web, since it defines the meaning and structure of web content.</p>
+    <p>CSS (short for "Cascading Style Sheets") describes the web page's appearance, which makes the web pages look good.</p>
+  </section>
+
+  <section class="main-section" id="what_is_html">
+    <header>What is HTML?</header>
+    <p>HTML can be seen as the "skeleton" of the web page, and this gives the web page some structure.</p>
+    <p>The use of tags can be used to define the structure of the page, and without tags, the website wouldn't be able to function properly.<br>Here's some HTML in action:
+    <code>
+      <header>This is a header, which briefly describes the content</header>
+      <p>This is a paragraph, where the content will go</p>
+    </code>
+    </p>
+  </section>
+
+  <section class="main-section" id="what_is_css">
+    <header>What is CSS?</header>
+    <p>CSS can be seen as the body (through visual feautures, by defining different aspects, such as eye colour and height), that creates the overall look and feel of a website through the use of a <code>font-family</code> and <code>color</code> for example. Of course, there are more than just fonts and colours:
+    <ul>
+      <li>
+        <a href="https://overapi.com/css">CSS Cheat Sheet</a>
+      </li>
+      <li>
+        <a href="http://learnlayout.com/">Learn CSS Layout</a>
+      </li>
+    </ul>
+    </p>
+    <p>Whilst a page can be fully functional with just HTML, it won't look as visually appealing (unless you're planning on making your website as minimalist as possible).<br>Here's some CSS in action:
+      <br>
+      <code>
+        header {
+  color: black;
+  margin: 10px;
+  text-align: center;
+  font-size: 1.8em;
+  font-weight: thin;
+}
+     </code>
+    </p>
+  </section>
+
+  <section class="main-section" id="creating_your_first_webpage">
+    <header>Creating Your First Webpage</header>
+    <p>Creating your first website can be a bit daunting at first, but here's an example of some basic HTML in action:<br>
+      <code>
+        <html>
+          <head>
+            <title>Welcome to my site</title>
+          </head>
+          <body>
+            <h1>A Quick Start on Learning How To Code</h1>
+            <p>Learning how to code can be a bit daunting at first, especially if it's your first time doing it and you have no idea what to do.</p>
+          </body>
+        </html>
+      </code>
+    </p>
+    <p>Here are some resources for you to get started:
+    <ul>
+      <li><a href="https://www.freecodecamp.org">freeCodeCamp</a></li>
+      <li><a href="https://www.theodinproject.com">The Odin Project</a></li>
+      <li><a href="https://developer.mozilla.org/en-US/docs/Web">MDN Web Docs</a></li>
+    </ul>
+    </p>
+  </section>
+</html>
